@@ -4614,3 +4614,195 @@ in C:\xampp\htdocs\fads\index.php (13)
 in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
 in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
 in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:06 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:06 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:06 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:06 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:22 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:22 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:22 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:22 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:26 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:26 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:26 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:26 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:31 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:31 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:31 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:31 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:36 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:36 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:36 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:36 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:50 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:50 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:50 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:50 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:53 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:53 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:53 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:53 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:58 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:58 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:58 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:48:58 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:03 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:03 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:03 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:03 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:11 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:11 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:11 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:11 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:15 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:15 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:15 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:15 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:26 [warning] [application] Failed to set unsafe attribute "country" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:26 [warning] [application] Failed to set unsafe attribute "state" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:26 [warning] [application] Failed to set unsafe attribute "city" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)
+2014/03/05 13:49:26 [warning] [application] Failed to set unsafe attribute "zipcode" of "Users".
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (191)
+in C:\xampp\htdocs\fads\protected\controllers\UserController.php (90)
+in C:\xampp\htdocs\fads\index.php (13)

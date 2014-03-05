@@ -14,6 +14,10 @@
  * @property string $phone
  * @property string $paypal_email
  * @property string $email
+ * @property string $country
+ * @property string $state
+ * @property string $city
+ * @property string $zipcode
  * @property string $address
  * @property string $profile_description
  * @property string $lat
@@ -61,8 +65,8 @@ class Users extends ActiveRecord
 		    array('private_email','required'),
 			array('username,firstname, lastname','CRegularExpressionValidator', 'pattern'=>'/^[a-zA-z]{3,}$/','message'=>"{attribute} should contain only letters and should have            atleast 3 of them."),
 
-			array('profile_picture_media_file_id, email_newsletter, email_address_verified, status', 'numerical', 'integerOnly'=>true),
-			array('firstname, lastname, username, password, register_surce, paypal_email, email, lat, logn, private_email, reset_password_key', 'length', 'max'=>1000),
+			array('profile_picture_media_file_id,zipcode,email_newsletter, email_address_verified, status', 'numerical', 'integerOnly'=>true),
+			array('firstname, lastname, username, password, register_surce, paypal_email, email,country,state,city,lat, logn, private_email, reset_password_key', 'length', 'max'=>1000),
 			array('phone', 'length', 'max'=>100),
 			array('sex', 'length', 'max'=>6),
 			//array('username','unique'),
@@ -71,7 +75,7 @@ class Users extends ActiveRecord
 			array('date_of_birth, address, profile_description, reset_password_timestamp, last_login_datetime, created_on, modified_on', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('user_id, firstname, lastname, username, password, register_surce, date_of_birth, phone, paypal_email, email, address, profile_description, lat, logn, sex, private_email, profile_picture_media_file_id, email_newsletter, reset_password_key, reset_password_timestamp, last_login_datetime, email_address_verified, status, created_on, modified_on', 'safe', 'on'=>'search'),
+			array('user_id, firstname, lastname, username, password, register_surce, date_of_birth, phone, paypal_email, email,country,state,city,zipcode,address, profile_description, lat, logn, sex, private_email, profile_picture_media_file_id, email_newsletter, reset_password_key, reset_password_timestamp, last_login_datetime, email_address_verified, status, created_on, modified_on', 'safe', 'on'=>'search'),
 		);
 	}
 	public function checkdate($attribute,$params)
@@ -112,6 +116,10 @@ class Users extends ActiveRecord
 			'phone' => 'Phone',
 			'paypal_email' => 'Paypal Email',
 			'email' => 'Email',
+			'country'=>'Country',
+			'satae'=>'State',
+			'city'=>'City',
+			'zipcode'=>'Zipcode',
 			'address' => 'Address',
 			'profile_description' => 'Profile Description',
 			'lat' => 'Lat',
@@ -151,7 +159,11 @@ class Users extends ActiveRecord
 		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('paypal_email',$this->paypal_email,true);
 		$criteria->compare('email',$this->email,true);
-		$criteria->compare('address',$this->address,true);
+		$criteria->compare('country',$this->country,true);
+		$criteria->compare('state',$this->state,true);
+		$criteria->compare('city',$this->city,true);
+		$criteria->compare('zipcode',$this->zipcode,true);
+        $criteria->compare('address',$this->address,true);
 		$criteria->compare('profile_description',$this->profile_description,true);
 		$criteria->compare('lat',$this->lat,true);
 		$criteria->compare('logn',$this->logn,true);
