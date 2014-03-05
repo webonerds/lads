@@ -73,7 +73,7 @@ class ActiveRecord extends CActiveRecord
 				{
 					$url = Yii::app()->params["baseHttpPath"] . DIRECTORY_SEPARATOR . $this->$mediaRelationName->filepath . DIRECTORY_SEPARATOR . $this->$mediaRelationName->filename;
 				}
-				$url=str_replace(array('C:\xampp\htdocs\\'),'',$url);
+				$url=str_replace(array('C:\xampp\htdocs\\','//home/content/14/7638914/html'),'',$url);
 				
 			
 				//lets store the url in the cache

@@ -25,7 +25,6 @@ $this->breadcrumbs=array(
 );
 
 ?><h5><?php echo CHtml::link("update Profile",Yii::app()->createUrl('user/update',array('id'=>$model->user_id)));?></h5>
-<h5><?php echo CHtml::link("Home",Yii::app()->createUrl('site/index',array('id'=>$model->user_id)));?></h5>
 
 <h1>View Users #<?php echo $model->user_id; ?></h1>
 
