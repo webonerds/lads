@@ -1,25 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-  
-
-
-
-
-
 <div class="row">
     <div class="col-10 col-center">
              

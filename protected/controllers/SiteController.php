@@ -30,8 +30,9 @@ class SiteController extends Controller
 		$model = new Users;
 		if(isset($_POST['Users']))
 		{
+		
+		
 			$model->attributes=$_POST['Users'];
-			
 			
 			$criteria = new CDbCriteria;
             $criteria->compare('firstname', $model->firstname,true,'or');
@@ -40,10 +41,10 @@ class SiteController extends Controller
           	$criteria->compare('address', $model->firstname,true,'or');
 			$criteria->compare('username', $model->firstname,true,'or');
 
-			$criteria->compare('country',$model->country,true);
-			$criteria->compare('state',$model->state,true,'or');
-			$criteria->compare('city',$model->city,true,'or');
-			$criteria->compare('zipcode',$model->zipcode,true,'or');
+			$criteria->compare('country',$model->firstname,true,'or');
+			$criteria->compare('state',$model->firstname,true,'or');
+			$criteria->compare('city',$model->firstname,true,'or');
+			$criteria->compare('zipcode',$model->firstname,true,'or');
 		
           
           	$criteria->order= "created_on desc";
