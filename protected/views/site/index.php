@@ -53,10 +53,12 @@
       <div class="row">
         <div class="col-11">
           <div id="blob-bg" style="opacity: 1"></div>
+          
+          
           <h1 class='text-special'>Find Profiles.</h1>
-          <h2>people in over 34,000 cities and 192 countries.</h2>
+          <h2>people in over <?php echo Users::model()->getColumnCount('city');?> cities and <?php echo Users::model()->getColumnCount('country');?> countries.</h2>
 
-<?php 
+           <?php 
               $model = new Users; 
               $form=$this->beginWidget('CActiveForm', array(
                     'action'=>Yii::app()->createUrl('/site/index'),
@@ -64,7 +66,7 @@
 					'htmlOptions'=>array('class'=>'custom show-search-options position-left form-inline')
             )); ?>
             <div class="input-wrapper">
-            	<?php echo $form->textField($model,'firstname',array('placeholder'=>'Search By City, Zipcode','class'=>'location input-large input-contrast','style'=>'width:500px;')); ?>
+            	<?php echo $form->textField($model,'firstname',array('placeholder'=>'Search By City, Zipcode','class'=>'location input-large input-contrast','style'=>'width:500px;'          )); ?>
 
 			   <p id="enter_location_error_message" class="bad" style="display:none;">
                 Please set location

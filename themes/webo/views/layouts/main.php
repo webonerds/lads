@@ -44,14 +44,14 @@
     <!--[if IE]><![endif]-->
     <meta charset="utf-8">
 
-    <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1-d8d662030cb347f51deb87ea2bd0c7dc.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/common.css" media="all" rel="stylesheet" type="text/css" />
 
     
   <!--[if lt IE 10]>
-  <link href="https://a0.muscache.com/airbnb/static/p1/main_ie-1b1c9058e42d2f1fcc78d9887278bda9.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="https://a0.muscache.com/airbnb/static/p1/main_ie-5d4c68553747de8db6916fdf6c56fc57.css" media="screen" rel="stylesheet" type="text/css" />
   <![endif]-->
   <!--[if (gte IE 10)|!(IE)]><!-->
-  <link href="https://a0.muscache.com/airbnb/static/p1/main-9b4a4209b830cbd0dfe87604809b9af1.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/main.css" media="screen" rel="stylesheet" type="text/css" />
   <!--<![endif]-->
 
     
@@ -76,10 +76,10 @@
     </script>
 
 
-    <title>Vacation Rentals, Homes, Apartments & Rooms for Rent - Airbnb</title>
+    <title>Guitar tutor</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"fc09a36731","applicationID":"2237","transactionName":"dlwMQktaWAgBEB1aXFhWEldeUEdLFwpdRQ==","queueTime":38,"applicationTime":16,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-346.min.js","extra":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"fc09a36731","applicationID":"2237","transactionName":"dlwMQktaWAgBEB1aXFhWEldeUEdLFwpdRQ==","queueTime":23,"applicationTime":58,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-353.min.js","extra":""}</script>
 <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
 
       <link rel="canonical" href="https://www.airbnb.com/">
@@ -126,27 +126,17 @@
     <link rel="image_src" href="https://a0.muscache.com/airbnb/static/airbnb_logo-0887e76cd6fd403d016dd652455acbb6.png">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Airbnb">
 
-    <!--[if lt IE 9]>
-      <script src="https://a0.muscache.com/airbnb/static/vendor/html5shiv-69a2aa52c3c22c05685997eb91ac7036.js" type="text/javascript"></script>
+   <!--[if lt IE 9]>
+      <script src="<?php echo yii::app()->theme->baseUrl;?>" type="text/javascript"></script>
     <![endif]-->
     <link rel="shortcut icon" type="image/x-icon" href="https://a0.muscache.com/airbnb/static/logotype_favicon-2e5a2c7c6a64c00b95ed01dec8b85f57.ico">
   </head>
   <body class=" home_view v2">
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-46MK"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-46MK');</script>
-
-
-
 
     <div id="header" class="navbar navbar-top">
   <div class="navbar-inner">
     <div class="container container-full-width page-container">
-      <a href="/" class="brand airbnb">Airbnb</a>
+      <a href="index.php" class="brand guitar">Guitar Titor</a>
       <ul class="nav">
         <li id="header-search">
         <?php
@@ -204,15 +194,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </ul>
           </div>
         </li>
-        <li class="list-your-space">
-          <a id="list-your-space" class="yellow btn btn-special" href="/rooms/new">List Your Space</a>
-        </li>
+        
+        <?php if(isset(Yii::app()->user->id))
+	  	{?>
+        <li class="list-your-space"><a id="list-your-space" class="btn btn-special green" href="<?php echo Yii::app()->createUrl('/user/view',array('id'=>Yii::app()->user->user_id));?>"><?php echo Yii::app()->user->username;?></a>
+         </li>
+         <li class="list-your-space">    <a id="list-your-space" class="yellow btn btn-special" href="<?php echo Yii::app()->createUrl('/site/logout');?>">Log Out</a></li>
+      	<?php }?>
+      </ul>
+      <?php if(!isset(Yii::app()->user->id))
+	  {?>
       </ul>
 
       <ul class="nav pull-right logged-out">
-        <li id="sign_up"><a data-signup-modal href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=homepages">Sign Up</a></li>
-        <li id="login"><a data-login-modal href="/login?redirect_params[action]=show&amp;redirect_params[controller]=homepages">Log In</a></li>
+        <li ><a href="<?php echo Yii::app()->createUrl('/user/create');?> ">Sign Up</a></li>
+        <li ><a href="<?php echo Yii::app()->createUrl('/site/login');?> ">Log In</a></li>
       </ul>
+       <?php } ?>
 
       <ul class="nav pull-right logged-in">
         <li class="dropdown user-item">
@@ -256,8 +254,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </div>
-
-
+      
+  
     <script src="https://a0.muscache.com/airbnb/static/header_cookie-a91c92b8cdd18a719018b12f60162c6d.js" type="text/javascript"></script>
 
     <script>new HeaderPreload();</script>
@@ -269,9 +267,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <div id="hero" style="display:block;" 
-     data-native-currency="USD"
-     class="">
- <?php echo $content;?>
+      
+     data-native-currency="INR"
+    <div id="hero" style="border:1"
+
+     <?php echo $content;?>
+
+     
+  <ul class="list-unstyled" id="slideshow">
+
+        
+        
+        
+  </ul>
+
+  
+    
 </div>
 
 
@@ -466,26 +477,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://a0.muscache.com/airbnb/static/o2.1-cf95c4fb52a0e1d06d96029a981f38b4.js" type="text/javascript"></script>
     <script src="https://a0.muscache.com/airbnb/static/core-b05d3ef25c31a37febdc2e0026d58ad1.js" type="text/javascript"></script>
 
-    <script>
-      I18n.init(
-        {"country":"US","currencies":{"ARS":{"symbol":"$","code_required":true,"options":null},"AUD":{"symbol":"$","code_required":true,"options":null},"BRL":{"symbol":"R$","code_required":false,"options":{"space_between_price_and_symbol":true}},"CAD":{"symbol":"$","code_required":true,"options":null},"CHF":{"symbol":"CHF","code_required":false,"options":{"position":"after","space_between_price_and_symbol":true}},"CNY":{"symbol":"&yen;","code_required":false,"options":{"unicode_symbol":"¥"}},"CZK":{"symbol":"&#75;&#269;","code_required":false,"options":{"unicode_symbol":"Kč"}},"DKK":{"symbol":"kr","code_required":true,"options":{"position":"after","space_between_price_and_symbol":true,"explicit_currency_not_aesthetic":true}},"EUR":{"symbol":"&euro;","code_required":false,"options":{"unicode_symbol":"€","position":"special"}},"GBP":{"symbol":"&pound;","code_required":false,"options":{"unicode_symbol":"£"}},"HKD":{"symbol":"$","code_required":true,"options":null},"HUF":{"symbol":"Ft","code_required":false,"options":null},"IDR":{"symbol":"Rp","code_required":false,"options":null},"ILS":{"symbol":"&#8362;","code_required":false,"options":{"unicode_symbol":"₪","space_between_price_and_symbol":true}},"INR":{"symbol":"&#8377;","code_required":false,"options":{"unicode_symbol":"₹"}},"JPY":{"symbol":"&yen;","code_required":false,"options":{"unicode_symbol":"¥","space_between_price_and_symbol":true}},"KRW":{"symbol":"&#8361;","code_required":false,"options":{"unicode_symbol":"₩","space_between_price_and_symbol":true}},"MYR":{"symbol":"&#82;&#77;","code_required":false,"options":{"unicode_symbol":"RM"}},"MXN":{"symbol":"$","code_required":true,"options":null},"NOK":{"symbol":"kr","code_required":true,"options":{"position":"after","space_between_price_and_symbol":true,"explicit_currency_not_aesthetic":true}},"NZD":{"symbol":"$","code_required":true,"options":null},"PHP":{"symbol":"&#8369;","code_required":false,"options":{"unicode_symbol":"₱"}},"PLN":{"symbol":"z&#22;&#322;","code_required":false,"options":{"unicode_symbol":"zł"}},"RUB":{"symbol":"&#1088;","code_required":false,"options":{"unicode_symbol":"р","position":"after"}},"SEK":{"symbol":"kr","code_required":true,"options":{"position":"after","space_between_price_and_symbol":true,"explicit_currency_not_aesthetic":true}},"SGD":{"symbol":"$","code_required":true,"options":null},"THB":{"symbol":"&#3647;","code_required":false,"options":{"unicode_symbol":"฿"}},"TRY":{"symbol":"&#84;&#76;","code_required":false,"options":{"unicode_symbol":"TL","position":"after","space_between_price_and_symbol":true}},"TWD":{"symbol":"$","code_required":true,"options":null},"USD":{"symbol":"$","code_required":false,"options":null},"VND":{"symbol":"&#8363;","code_required":false,"options":{"unicode_symbol":"₫"}},"ZAR":{"symbol":"R","code_required":true,"options":null}},"current_locale_name":"English","languages":[{"locale_name":"Bahasa Indonesia","locale":"id"},{"locale_name":"Bahasa Melayu","locale":"ms"},{"locale_name":"Català","locale":"ca"},{"locale_name":"Dansk","locale":"da"},{"locale_name":"Deutsch","locale":"de"},{"locale_name":"English","locale":"en"},{"locale_name":"Español","locale":"es"},{"locale_name":"Eλληνικά","locale":"el"},{"locale_name":"Français","locale":"fr"},{"locale_name":"Italiano","locale":"it"},{"locale_name":"Magyar","locale":"hu"},{"locale_name":"Nederlands","locale":"nl"},{"locale_name":"Norsk","locale":"no"},{"locale_name":"Polski","locale":"pl"},{"locale_name":"Português","locale":"pt"},{"locale_name":"Suomi","locale":"fi"},{"locale_name":"Svenska","locale":"sv"},{"locale_name":"Türkçe","locale":"tr"},{"locale_name":"Íslenska","locale":"is"},{"locale_name":"Čeština","locale":"cs"},{"locale_name":"Русский","locale":"ru"},{"locale_name":"ภาษาไทย","locale":"th"},{"locale_name":"中文 (简体)","locale":"zh"},{"locale_name":"中文 (繁體)","locale":"zh-TW"},{"locale_name":"日本語","locale":"ja"},{"locale_name":"한국어","locale":"ko"}]}
-      );
-      I18n.extend({"Password":"Password","users.Confirm_Password_to_Continue":"Confirm Password to Continue","users.Confirm_Password":"Confirm Password","users.Cancel":"Cancel","users.Please_enter_your_Airbnb_password_to_continue.":"For your security, please enter your Airbnb password to continue.","choose_language":"Choose language","choose_currency":"Choose currency","clear_dates":"Clear Dates"});
-    </script>
+    
 
-
-    <script>
-  (function(c,a){window.mixpanel=a;var b,d,h,e;
-  a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f?g=a[f]=[]:f="mixpanel";g.people=g.people||[];h=['disable','track','track_pageview','track_links','track_forms','register','register_once','unregister','identify','name_tag','set_config','people.identify','people.set','people.increment'];for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1;})(document,window.mixpanel||[]);mixpanel.init("871bd83d174bd67e8c8643e833a4514d");
-</script>
-
-
-      <script>
-        !function() {
-          var Facebook = require('airbnb.facebook');
-          Facebook.init({"appId":"138566025676","scope":"email,user_birthday,user_likes,user_education_history,user_hometown,user_interests,user_activities,user_location"});
-        }();
-      </script>
 
     
     <script src="https://a0.muscache.com/airbnb/static/homepage-6688ff30bae30ab46acbfd1bd34add0f.js" type="text/javascript"></script>
@@ -493,118 +486,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <script>
       try {
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2725447-1']);
-        _gaq.push(['_setDomainName', '.airbnb.com']);
-        _gaq.push(['_setAllowLinker', true]);
-        _gaq.push(['_trackPageview']);
-
-        setTimeout(function() {
-          var ga = document.createElement('script');
-          ga.src = '//stats.g.doubleclick.net/dc.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        }, 0);
-
-        window.___gcfg = {lang: 'en', parsetags: 'onload'};
 
 
-
-
-        (function() {
-          var initOptions = {"canonical_host":"www.airbnb.com","canonical_url":"https://www.airbnb.com/","locale":"en"};
-          Airbnb.init(initOptions);
-
-          Airbnb.o2Version = "o2.1";
-
-          Airbnb.LangCurrPicker.init();
-
-
-          Airbnb.header = new Airbnb.Header();
-
-          if (Airbnb.Tracking) {
-            var userID = Airbnb.userAttributes.id || null,
-                roleType = "production";
-
-            Airbnb.Tracking.addDefaultContext();
-            Airbnb.Tracking.addContext({
-              o2Version: "o2.1",
-              source: "monorail",
-              platform: "js",
-              version: "5998dd3a54f2f2c5fd6294cc0004d7efa11569c0",
-              controller: "homepages",
-              action: "show",
-              req_uuid: "0026562e-ba47-43a7-8c47-62458d9d58bb",
-              user_id: userID
-            });
-
-            Airbnb.addInitHook(function() {
-              Airbnb.Tracking.init();
-
-              if (Airbnb.ExceptionTracker && window.TraceKit) {
-                Airbnb.ExceptionTracker.init(window.TraceKit,
-                                             Airbnb.Tracking,
-                                             userID,
-                                             roleType);
-              }
-
-            });
-          }
-
-        })();
-
-        Airbnb.Api.configure({"baseUrl":"https://www.airbnb.com/api","key":"d306zoyjsyarp7ifhu67rjxn52tv0t20"});
-
-          (function() {
-            var flash = require('o2-flash');
-            flash.display('.flash-container');
-          })();
-
-        
-  !function($) {
-    var $location = $('#location');
-    $location.focus();
-
-    $(window).on('load', function() {
-      Airbnb.Utils.withGooglePlaces(function(){
-        var autocomplete = new google.maps.places.Autocomplete(
-          $location[0], {types: ["geocode"]}
-        );
-      });
-    });
-
-    var $pacContainer = null;
-    $location.on('keydown', function(e) {
-      if(e.keyCode === 13) {
-        if(!$pacContainer || !$pacContainer.length) {
-          $pacContainer = $('.pac-container');
-        }
-        if($pacContainer.is(':visible')) e.preventDefault();
-      }
-    });
-  }(jQuery);
-
-  $(function(){
-    if(Airbnb.userAttributes.og_publish) {
-      $(document).bind('fbLoginStatus', Airbnb.Utils.fbInitHasPublishAction);
-    }
-
-    AIR.HomepageHelper.initHomepageHero();
-    $(window).bind("load", function() {
-        AIR.HomepageHelper.initSlideshow();
-      setTimeout(function() {
-        Airbnb.Utils.preload(["https://a0.muscache.com/airbnb/static/packages/map_search-36ed1876746ef263a2d1172e59ba736c.css","https://a0.muscache.com/airbnb/static/map_search-7ebd62c1c56f0a5918e985c76e5c90d3.js"]);
-      }, 200);
-      $.ajax({
-        url: "/homepages/ajax_get_referrals_amt",
-        success: function(data) {
-          data = $.trim(data);
-          if(data !== '') {
-            $('#referrals-promo-subtext').text(data);
-          }
-        }
-      });
-    });
-  });
+	
+	  $(function(){
+	   
+	
+		AIR.HomepageHelper.initHomepageHero();
+		$(window).bind("load", function() {
+			AIR.HomepageHelper.initSlideshow();
+		  setTimeout(function() {
+			Airbnb.Utils.preload(["https://a0.muscache.com/airbnb/static/packages/map_search-36ed1876746ef263a2d1172e59ba736c.css","https://a0.muscache.com/airbnb/static/map_search-7ebd62c1c56f0a5918e985c76e5c90d3.js"]);
+		  }, 200);
+		  $.ajax({
+			url: "/homepages/ajax_get_referrals_amt",
+			success: function(data) {
+			  data = $.trim(data);
+			  if(data !== '') {
+				$('#referrals-promo-subtext').text(data);
+			  }
+			}
+		  });
+		});
+	  });
 
 
       } catch(e) {
@@ -614,33 +518,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     </script>
 
-    <script>
-(function($, ua) {
-  $(window).on('load.pellet', function(){
-    if(ua.should_drop_pellet){
-      Airbnb.Pellet.drop('kfgn8s24');
-    }
-  });
-
-  if (ua.should_drop_sift_pellet) {
-    $(window).on('load', function(){
-      window._sift = window._sift || [];
-      _sift.push(['_setAccount', '5d704de7e8']);
-      _sift.push(['_setUserId', ua.eid || '']);
-      _sift.push(['_setSessionId', Airbnb.Utils.readCookie('esid')]);
-      _sift.push(['_trackPageview']);
-      LazyLoad.js('//cdn.siftscience.com/s.js');
-    });
-  }
-
-})(jQuery, Airbnb.userAttributes);
-
-</script>
+    
 
 
     <script>
       LazyLoad.js('//a0.muscache.com/3p/_latest/abb_combo_all_fb_locale-en_US.js');
     </script>
+
+
+
+<?php 
+$this->beginWidget('zii.widgets.jui.CJuiDialog', array(
+
+    'id'=>'mydialog',
+
+    // additional javascript options for the dialog plugin
+
+    'options'=>array(
+
+        'title'=>'Dialog box 1',
+
+        'autoOpen'=>false,
+
+        'modal'=>true,      
+
+    ),
+
+));
+
+ 
+
+echo 'dialog content here';
+
+ 
+
+$this->endWidget('zii.widgets.jui.CJuiDialog');
+
+ 
+
+// the link that may open the dialog
+
+echo CHtml::link('open dialog', '#', array(
+
+    'onclick'=>'$("#mydialog").dialog("open"); return false;',
+
+));
+
+
+?>
 
   </body>
 </html>

@@ -1,9 +1,5 @@
 
 
-<div class="signup modal-content">
-<h3 class="panel-header-gray panel-header">
-  Sign up
-</h3>
 <div id="notice" class="alert panel-header alert-header alert-danger alert-error hidden-element"></div>
 <div class="panel-padding panel-body">
     
@@ -90,7 +86,7 @@
    
 
     </div>
-</div>
+
 <div class="panel-footer panel-body">
   <div class="text-left">
     Already an GuitarGuide member?

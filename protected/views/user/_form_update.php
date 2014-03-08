@@ -1,7 +1,8 @@
 <div class="row">
     <div class="col-10 col-center">
-             
+             <div class="panel">
         <div class="panel col-6">
+        <div class="panel-padding panel-body">
                <div class='panel-header'>
                 Update Profile
                 </div>
@@ -65,7 +66,7 @@
         <div class="control-group row-space-1" id="inputConfirmPrivateemail">
         
               <?php echo $form->labelEx($model,'date_of_birth'); ?>
-                    <div><?php
+                    <?php
                              $this->widget( 'zii.widgets.jui.CJuiDatePicker', array(
                           'model' => $model, // Your model
                           'attribute' => 'date_of_birth', // Attribute for input
@@ -85,13 +86,14 @@
                               
                                 'htmlOptions' => array(
                                   'autocomplete' => 'off',
-                                  'size' => 12,
+                                  'size' => 20,
                                   'maxlength' => 10,
+								  'style'=>'width:300px;',
                                   'class'=>'date input pop-up-calendar dp-applied span-4',
                                 ),
                               
                         ));
-                  ?></div>
+                  ?>
                     <?php echo $form->error($model,'date_of_birth'); ?>
                 
         
@@ -224,6 +226,7 @@
      
     </div>
 </div>
+
 
 
 

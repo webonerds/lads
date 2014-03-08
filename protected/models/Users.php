@@ -186,6 +186,12 @@ class Users extends ActiveRecord
 		
 	
 	}
+	public function getColumnCount($col)
+	{
+		$cnt= Yii::app()->db->createCommand("select count($col) from users where $col!=''")->queryScalar();
+		return $cnt;
+	}
+	
 		/**
 	 * Function to get the full name of a user
 	 * 
