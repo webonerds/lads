@@ -53,6 +53,5 @@
     <a href="#" class="slideshow-scroll slideshow-scroll-next faded-out show-desktop">
       <i class="icon icon-chevron-right"></i>
     </a>
-    
 
 

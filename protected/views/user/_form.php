@@ -51,11 +51,12 @@
 		<?php echo $form->error($model, 'lastname'); ?>
 </div>
 
-<div class="control-group row-space-1" id="inputSex">
-        <?php echo $form->labelEx($model, 'sex'); ?>
-		<div><?php echo $form->dropDownList($model, 'sex', array('Male'=>'Male','Female'=>'Female'),array('empty'=>'Select One','required'=>'required','class'=>'decorative-input','placeholdar'=>'esx')); ?></div>
-		<?php echo $form->error($model, 'sex'); ?>
+<div class="control-group row-space-1" id="inputCity">
+        <?php echo $form->labelEx($model, 'city'); ?>
+		<div><?php echo $form->textField($model, 'city', array('required' => 'required','class'=>'decorative-input','placeholder'=>'City')); ?></div>
+		<?php echo $form->error($model, 'city'); ?>
 </div>
+
 </div>
 <div class="control-group row-space-1" id="inputConfirmPrivateemail">
          <?php echo $form->labelEx($model, 'private_email'); ?>

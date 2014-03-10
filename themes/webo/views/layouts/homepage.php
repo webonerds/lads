@@ -140,13 +140,16 @@
       <ul class="nav">
         <li id="header-search">
         <?php
+		
+		
               $searchModel = new Users; 
               $form=$this->beginWidget('CActiveForm', array(
                     'action'=>Yii::app()->createUrl('/site/index'),
                     //'method'=>'get',
 					'htmlOptions'=>array('id'=>'search-form')
             )); ?>
-            
+             
+			 
             
           
            
@@ -155,16 +158,7 @@
 	
            
         </li>
-        <li class="dropdown item_explore">
-         <a class="dropdown-toggle" href="javascript:void(0)" style="margin-left:100px"> Browse <b class="caret"></b></a>
-         <ul class="dropdown-menu dropdown-bordered">
-           <li><a href="/wishlists/popular"><i class="icon icon-product-wishlist icon-heart pink"></i> Popular</a></li>
-           <li><a href="/wishlists/friends"><i class="icon icon-group"></i> Friends</a></li>
-           <li><a href="/locations"><i class="icon icon-product-neighborhoods icon-map-marker blue"></i> Neighborhoods</a></li>
-           <li class="meetups"><a href="/meetup"><i class="icon icon-product-meetups icon-meetups"></i> Meetups</a></li>
-           <li class="groups"><a href="/groups"><i class="icon icon-comments"></i> Groups</a></li>
-         </ul>
-        </li>
+        
       </ul>
 
       <ul class="nav pull-right help-menu" style="margin-left:0;">
