@@ -2,50 +2,16 @@
 
   <ul class="list-unstyled" id="slideshow">
         <li class="active" data-bg-opacity="1">
-        <img alt="Astronomic Hotel" src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/28429-953cc465c5c74685970caed61328115e.jpg"  height="700" width="1600">
+        <img alt="Astronomic Hotel" src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/28429-953cc465c5c74685970caed61328115e.jpg"  height="500" width="1600">
           <div class="caption">
             <a href="/rooms/28429" class="media-photo pull-right">
               <img src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/28429-420535ba45ff12bb624c4774ac9dd8b7.jpg"  height="40" width="40">
             </a>
-            <p>
-              <strong><a href="/rooms/28429">Astronomic Hotel</a></strong><br />
-              <a href="/rooms/28429">Coquimbo, Chile</a> -
-              <span class="price" data-price="190.0">
-                <a href="/rooms/28429">$190</a>
-              </span>
-            </p>
+            
           </div>
         </li>
-        <li  data-bg-opacity="0.6">
-        <img alt="Casa Caracol" data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/530250-ca21515e1cf19fa3942934f28e5b93c8.jpg"  height="700" width="1600">
-          <div class="caption">
-            <a href="/rooms/530250" class="media-photo pull-right">
-              <img data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/530250-5fc8881c653e8935fb910ca8e925aa8b.jpg"  height="40" width="40">
-            </a>
-            <p>
-              <strong><a href="/rooms/530250">Casa Caracol</a></strong><br />
-              <a href="/rooms/530250">Isla Mujeres, Mexico</a> -
-              <span class="price" data-price="225.0">
-                <a href="/rooms/530250">$225</a>
-              </span>
-            </p>
-          </div>
-        </li>
-        <li  data-bg-opacity="1">
-        <img alt="Off-Grid House" data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/19606-639210c9f6b3d9903a903cc7a53eab53.jpg"  height="700" width="1600">
-          <div class="caption">
-            <a href="/rooms/19606" class="media-photo pull-right">
-              <img data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/19606-9e2044e01c419b861d175ddb3267a848.jpg"  height="40" width="40">
-            </a>
-            <p>
-              <strong><a href="/rooms/19606">Off-Grid House</a></strong><br />
-              <a href="/rooms/19606">Pioneertown, California</a> -
-              <span class="price" data-price="360.0">
-                <a href="/rooms/19606">$360</a>
-              </span>
-            </p>
-          </div>
-        </li>
+        
+        
   </ul>
 
   <div class="search-area">
@@ -87,5 +53,6 @@
     <a href="#" class="slideshow-scroll slideshow-scroll-next faded-out show-desktop">
       <i class="icon icon-chevron-right"></i>
     </a>
+    
 
 

@@ -27,11 +27,12 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
+	    $this->layout="homepage";
 		$model = new Users;
 		if(isset($_POST['Users']))
 		{
 		
-		
+		  
 			$model->attributes=$_POST['Users'];
 			
 			$criteria = new CDbCriteria;

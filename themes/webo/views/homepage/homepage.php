@@ -44,12 +44,16 @@
     <!--[if IE]><![endif]-->
     <meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/common.css" />
-	
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
-	
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/map_search.css" />
-	
+    <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/common.css" media="all" rel="stylesheet" type="text/css" />
+
+    
+  <!--[if lt IE 10]>
+  <link href="https://a0.muscache.com/airbnb/static/p1/main_ie-5d4c68553747de8db6916fdf6c56fc57.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <!--[if (gte IE 10)|!(IE)]><!-->
+  <link href="<?php echo Yii::app()->theme->baseUrl;?>/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+  <!--<![endif]-->
+
     
 
     <style>
@@ -62,6 +66,7 @@
 
     <script>
       var sherlock_firstbyte = Number(new Date());
+      var googleMapsUrl = '//maps.googleapis.com/maps/api/js?language=en&sensor=false&v=3.13&libraries=places&client=gme-airbnbinc&channel=monorail-prod';
       var userAttributeCookies = {
         flags_name: 'flags',
         roles_name: 'roles',
@@ -73,12 +78,21 @@
 
     <title>Guitar tutor</title>
 
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-5.newrelic.com","errorBeacon":"jserror.newrelic.com","licenseKey":"fc09a36731","applicationID":"2237","transactionName":"dlwMQktaWAgBEB1aXFhWEldeUEdLFwpdRQ==","queueTime":23,"applicationTime":58,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-353.min.js","extra":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function a(b,c,d){function e(f){if(!c[f]){var g=c[f]={exports:{}};b[f][0].call(g.exports,function(a){var c=b[f][1][a];return e(c?c:a)},g,g.exports,a,b,c,d)}return c[f].exports}for(var f=0;f<d.length;f++)e(d[f]);return e}({"4O2Y62":[function(a,b){function c(a,b){var c=d[a];return c?c.apply(this,b):(e[a]||(e[a]=[]),void e[a].push(b))}var d={},e={};b.exports=c,c.queues=e,c.handlers=d},{}],handle:[function(a,b){b.exports=a("4O2Y62")},{}],YLUGVp:[function(a,b){function c(){var a=m.info=NREUM.info;if(a&&a.agent&&a.licenseKey&&a.applicationID){m.proto="https"===l.split(":")[0]||a.sslForHttp?"https://":"http://",g("mark",["onload",f()]);var b=i.createElement("script");b.src=m.proto+a.agent,i.body.appendChild(b)}}function d(){"complete"===i.readyState&&e()}function e(){g("mark",["domContent",f()])}function f(){return(new Date).getTime()}var g=a("handle"),h=window,i=h.document,j="addEventListener",k="attachEvent",l=(""+location).split("?")[0],m=b.exports={offset:f(),origin:l,features:[]};i[j]?(i[j]("DOMContentLoaded",e,!1),h[j]("load",c,!1)):(i[k]("onreadystatechange",d),h[k]("onload",c)),g("mark",["firstbyte",f()])},{handle:"4O2Y62"}],loader:[function(a,b){b.exports=a("YLUGVp")},{}]},{},["YLUGVp"]);</script>
 
       <link rel="canonical" href="https://www.airbnb.com/">
-          
+          <link rel="alternate" href="https://www.airbnb.com/" hreflang="en">
+          <link rel="alternate" href="https://www.airbnb.co.uk/" hreflang="en-GB">
+          <link rel="alternate" href="https://www.airbnb.com.sg/" hreflang="en-SG">
+          <link rel="alternate" href="https://www.airbnb.com.au/" hreflang="en-AU">
+          <link rel="alternate" href="https://www.airbnb.co.nz/" hreflang="en-NZ">
+          <link rel="alternate" href="https://www.airbnb.ca/" hreflang="en-CA">
+          <link rel="alternate" href="https://www.airbnb.ie/" hreflang="en-IE">
 
-      
+      <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.airbnb.com/">
+      <link rel="alternate" href="android-app://com.airbnb.android/airbnb">
 
       <meta name="description" content="Discover amazing, unique accommodations in 192 countries. With more than 10 million nights booked worldwide, Airbnb is the world leader in travel rentals.">
 
@@ -124,23 +138,7 @@
     <div class="container container-full-width page-container">
       <a href="index.php" class="brand guitar">Guitar Titor</a>
       <ul class="nav">
-        <li id="header-search">
-        <?php
-              $searchModel = new Users; 
-              $form=$this->beginWidget('CActiveForm', array(
-                    'action'=>Yii::app()->createUrl('/site/index'),
-                    //'method'=>'get',
-					'htmlOptions'=>array('id'=>'search-form')
-            )); ?>
-            
-            
-           
-           
-           
-           <?php $this->endWidget(); ?>
-	
-           
-        </li>
+        
         <li class="dropdown item_explore">
          <a class="dropdown-toggle" href="javascript:void(0)"> Browse <b class="caret"></b></a>
          <ul class="dropdown-menu dropdown-bordered">
