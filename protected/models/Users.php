@@ -69,7 +69,7 @@ class Users extends ActiveRecord
 			array('firstname, lastname, username, password, register_surce, paypal_email, email,country,state,city,lat, logn, private_email, reset_password_key', 'length', 'max'=>1000),
 			array('phone', 'length', 'max'=>100),
 			array('sex', 'length', 'max'=>6),
-			//array('username','unique'),
+			array('username','unique'),
 			array('private_email','email'),
 			array('date_of_birth','checkdate'),
 			array('date_of_birth, address, profile_description, reset_password_timestamp, last_login_datetime, created_on, modified_on', 'safe'),

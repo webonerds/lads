@@ -36,14 +36,7 @@ class SiteController extends Controller
 			$model->attributes=$_POST['Users'];
 			
 			$criteria = new CDbCriteria;
-            $criteria->compare('firstname', $model->firstname,true,'or');
-          	$criteria->compare('lastname', $model->firstname,true,'or');
-			$criteria->compare('address', $model->firstname,true,'or');
-          	$criteria->compare('address', $model->firstname,true,'or');
-			$criteria->compare('username', $model->firstname,true,'or');
-
-			$criteria->compare('country',$model->firstname,true,'or');
-			$criteria->compare('state',$model->firstname,true,'or');
+            
 			$criteria->compare('city',$model->firstname,true,'or');
 			$criteria->compare('zipcode',$model->firstname,true,'or');
 		

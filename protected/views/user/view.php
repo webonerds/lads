@@ -1,6 +1,6 @@
 <div class="row">
 
-<div class="col-10 col-center">
+<div class="col-6 col-center">
       <div class="panel">
 
 <h3 class="panel-header-gray panel-header">
@@ -26,7 +26,7 @@ $this->breadcrumbs=array(
 
 ?><h5><?php echo CHtml::link("update Profile",Yii::app()->createUrl('user/update',array('id'=>$model->user_id)));?></h5>
 
-<h1>View Users #<?php echo $model->user_id; ?></h1>
+<h3>View Users #<?php echo $model->user_id; ?></h3>
 
 <?php 
 
@@ -63,5 +63,5 @@ $this->widget('zii.widgets.CDetailView', array(
 		//'status',
 	),
 )); ?>
-
+</div>
 

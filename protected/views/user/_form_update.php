@@ -1,14 +1,14 @@
 <div class="row">
-    <div class="col-10 col-center">
-             <div class="panel">
-        <div class="panel col-6">
-        <div class="panel-padding panel-body">
-               <div class='panel-header'>
-                Update Profile
-                </div>
-         		 
-                 <div class="panel-body">
-              
+
+<div class="col-5 col-center">
+      <div class="panel">
+
+<h3 class="panel-header-gray panel-header">
+ View Profile
+</h3>
+<div id="notice" class="alert panel-header alert-header alert-danger alert-error hidden-element"></div>
+<div class="panel-padding panel-body">
+    
     
     
 			<?php $form=$this->beginWidget('CActiveForm', array(
@@ -62,42 +62,40 @@
                 </div>
                 <?php echo $form->error($model, 'paypal_email'); ?>
             </div>
-            
-        <div class="control-group row-space-1" id="inputConfirmPrivateemail">
-        
-              <?php echo $form->labelEx($model,'date_of_birth'); ?>
-                    <?php
-                             $this->widget( 'zii.widgets.jui.CJuiDatePicker', array(
-                          'model' => $model, // Your model
-                          'attribute' => 'date_of_birth', // Attribute for input
-                          'options' => array(
-                                  'dateFormat' => Yii::app()->params->dateformat,
-                                  'changeMonth' => 'true',
-                                  'value'=>Yii::app()->dateFormatter->format("Y-m-d",strtotime($model->date_of_birth)),
-                                  'changeYear' => 'true',
-                                  'showAnim' =>'slide',
-                                   'showOn' => 'both',
-                                  //'showOn'=>'button',
-                                  'buttonImage'=>Yii::app()->baseUrl."/images/canlender.jpg",
-                                 // 'buttonImageOnly'=>true,
-                                 'yearRange'=>'1970:2013',
-                                  'style'=>'padding-left: 9px; z-index:999;',
-                                ),
-                              
-                                'htmlOptions' => array(
+           
+             <?php echo $form->labelEx($model,'date_of_birth'); ?>
+               <div><?php
+                     $this->widget( 'zii.widgets.jui.CJuiDatePicker', array(
+                  'model' => $model, // Your model
+                  'attribute' => 'date_of_birth', // Attribute for input
+                  'options' => array(
+                          'dateFormat' => Yii::app()->params->dateformat,
+                          'changeMonth' => 'true',
+                          'value'=>Yii::app()->dateFormatter->format("Y-m-d",strtotime($model->date_of_birth)),
+                          'changeYear' => 'true',
+                          'showAnim' =>'slide',
+                           'showOn' => 'both',
+                          'showOn'=>'button',
+                          'buttonImage'=>Yii::app()->baseUrl."/images/canlender.jpg",
+                          'buttonImageOnly'=>true,
+                         'yearRange'=>'1970:2013',
+                          'style'=>'padding-left: 9px; z-index:999;',
+                        ),
+                      
+                        'htmlOptions' => array(
                                   'autocomplete' => 'off',
-                                  'size' => 20,
+                                  'size' => 12,
                                   'maxlength' => 10,
-								  'style'=>'width:300px;',
                                   'class'=>'date input pop-up-calendar dp-applied span-4',
-                                ),
-                              
-                        ));
-                  ?>
-                    <?php echo $form->error($model,'date_of_birth'); ?>
-                
-        
-            </div>
+                        ),
+
+                      
+                ));
+				
+               ?></div>
+            <?php echo $form->error($model,'date_of_birth'); ?>
+
+    
         
                <div class="control-group row-space-1" id="inputConfirmProfilePicture">
         
@@ -222,12 +220,9 @@
  
     </div>
    	   			
-		</div>
+		
      
-    </div>
-</div>
-
-
+ 
 
 
 		

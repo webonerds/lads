@@ -2,16 +2,50 @@
 
   <ul class="list-unstyled" id="slideshow">
         <li class="active" data-bg-opacity="1">
-        <img alt="Astronomic Hotel" src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/28429-953cc465c5c74685970caed61328115e.jpg"  height="500" width="1600">
+        <img alt="Garden Apartment in Amsterdam" src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/436914-611fe483545f7a1907ed1b7fcdc369d2.jpg"  height="700" width="1600">
           <div class="caption">
-            <a href="/rooms/28429" class="media-photo pull-right">
-              <img src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/28429-420535ba45ff12bb624c4774ac9dd8b7.jpg"  height="40" width="40">
+            <a href="/rooms/436914" class="media-photo pull-right">
+              <img src="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/436914-e626a4bb28d8cd12f7f2df4822df5a51.jpg"  height="40" width="40">
             </a>
-            
+            <p>
+              <strong><a href="/rooms/436914">Garden Apartment in Amsterdam</a></strong><br />
+              <a href="/rooms/436914">Amsterdam, Netherlands</a> -
+              <span class="price" data-price="187.16206848745318">
+                <a href="/rooms/436914">$187</a>
+              </span>
+            </p>
           </div>
         </li>
-        
-        
+        <li  data-bg-opacity="0.7">
+        <img alt="Writer's Studio" data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/455449-6e34238c317b250bda173045d06d4d49.jpg"  height="700" width="1600">
+          <div class="caption">
+            <a href="/rooms/455449" class="media-photo pull-right">
+              <img data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/455449-27bdd5aa2cbf2baf530e93cc3bb3b4da.jpg"  height="40" width="40">
+            </a>
+            <p>
+              <strong><a href="/rooms/455449">Writer's Studio</a></strong><br />
+              <a href="/rooms/455449">Paris, France</a> -
+              <span class="price" data-price="180.23014002495492">
+                <a href="/rooms/455449">$180</a>
+              </span>
+            </p>
+          </div>
+        </li>
+        <li  data-bg-opacity="1">
+        <img alt="Converted Brooklyn Warehouse" data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/hero/289130-6a86c1c0d3e71fb4a3dfcf662f598858.jpg"  height="700" width="1600">
+          <div class="caption">
+            <a href="/rooms/289130" class="media-photo pull-right">
+              <img data-image-url="https://a0.muscache.com/airbnb/static/landing_pages/home_v2/thumbs/289130-bfdf34cdc9158447cf061688f4d66553.jpg"  height="40" width="40">
+            </a>
+            <p>
+              <strong><a href="/rooms/289130">Converted Brooklyn Warehouse</a></strong><br />
+              <a href="/rooms/289130">Brooklyn, New York</a> -
+              <span class="price" data-price="60.0">
+                <a href="/rooms/289130">$60</a>
+              </span>
+            </p>
+          </div>
+        </li>
   </ul>
 
   <div class="search-area">

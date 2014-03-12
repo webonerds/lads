@@ -1,4 +1,5 @@
-
+<div class="row">
+             <div class="panel">
 
 <div id="notice" class="alert panel-header alert-header alert-danger alert-error hidden-element"></div>
 <div class="panel-padding panel-body">
@@ -96,7 +97,7 @@
 </a>  </div>
 </div>
 
-</div>
+
 
 
 

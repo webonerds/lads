@@ -1,9 +1,6 @@
-
-<div class="span2">
-
-</div>
-
-
+<div class="row">
+    <div class="col-10 col-center">
+             <div class="panel">
 <div class="span10 pull-right">
     <div class="filters collapse">
         <div class="intro-filter clearfix filters-section"
@@ -74,3 +71,5 @@
         )); ?>
     
   </div>
+
+</div>
